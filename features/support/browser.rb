@@ -13,8 +13,8 @@ class Browser
       options.add_argument('--disable-notifications')
       options.add_argument('--disable-extensions')
       options.add_argument('--headless') if ENV['RUN_BROWSER']
-      Selenium::WebDriver::Chrome::Service.driver_path = File.absolute_path('./chromedriver')
-      Selenium::WebDriver.for(:chrome, capabilities: options)
+      Selenium::WebDriver::Chrome::Service.driver_path = File.absolute_path('./chromedriver.exe')
+      Selenium::WebDriver.for(:chrome, options: options)
       end
   end
 

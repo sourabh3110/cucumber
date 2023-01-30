@@ -11,5 +11,5 @@ class Collect
   end
 end
 
-obj = Collect.new
-obj.method_one
+# obj = Collect.new
+# obj.method_one

@@ -8,5 +8,3 @@ Feature: Facebook Sign-in
       | email                            | password     |
       | "tyler_kgiyzep_durden@tfbnw.net" | "pass@123"   |
       | "8817882917"                     | "8817882917" |
-
-  Scenario: Table
